@@ -18,6 +18,7 @@ import lombok.Data;
 @Introspected
 @Table(name = "quotes", schema = "mn")
 @Data
+//fiyatlandırmak quote
 public class QuoteEntity {
 
   @Id

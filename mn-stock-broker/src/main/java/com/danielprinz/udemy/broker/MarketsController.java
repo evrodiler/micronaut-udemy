@@ -38,6 +38,7 @@ public class MarketsController {
   @Tag(name = "markets")
   @Get("/")
   public Single<List<Symbol>> index() {
+
     return Single.just(store.getAllSymbols());
   }
 
@@ -47,7 +48,8 @@ public class MarketsController {
   )
   @Tag(name = "markets")
   @Get("/jpa")
-  public Single<List<SymbolEntity>> allSymbolsViaJPA() {
+  public Single<List<SymbolEntity>> allSymbolsViaJPA()
+  {
     return Single.just(symbols.findAll());
   }
 

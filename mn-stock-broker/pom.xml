@@ -84,10 +84,17 @@
       <artifactId>micronaut-data-hibernate-jpa</artifactId>
       <scope>compile</scope>
     </dependency>
+    <!-- Schema Migration -->
     <dependency>
       <groupId>io.micronaut.flyway</groupId>
       <artifactId>micronaut-flyway</artifactId>
       <scope>compile</scope>
+    </dependency>
+    <!-- Db driver -->
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>io.micronaut.security</groupId>
@@ -112,11 +119,6 @@
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.postgresql</groupId>
-      <artifactId>postgresql</artifactId>
       <scope>runtime</scope>
     </dependency>
     <dependency>

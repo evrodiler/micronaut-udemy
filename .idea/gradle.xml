@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mn-elastic-search" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mn-elastic-search" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mn-jdbc-auth" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mn-jdbc-auth" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mn-mongodb" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mn-mongodb" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mn-pricing" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mn-pricing" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mn-rate-limit" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mn-rate-limit" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/mn-websockets" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/mn-websockets" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
